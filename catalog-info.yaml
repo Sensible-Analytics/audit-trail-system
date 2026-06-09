@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: audit-trail-system
+  description: "Explainable AI logging for regulated industries"
+  annotations:
+    github.com/project-slug: Sensible-Analytics/audit-trail-system
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sensible-analytics/engineering
